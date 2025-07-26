@@ -1,0 +1,119 @@
+.query-input-container {
+  margin-bottom: 2rem;
+}
+
+.query-form {
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.query-input {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.query-input:focus {
+  background: white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.query-input::placeholder {
+  color: #666;
+}
+
+.query-button {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.query-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(238, 90, 36, 0.4);
+}
+
+.query-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.sample-questions {
+  text-align: center;
+}
+
+.sample-questions p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.sample-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sample-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.sample-button:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+.sample-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .sample-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sample-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}

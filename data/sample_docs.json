@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "title": "Redis Overview",
+    "content": "Redis is an open-source, in-memory data structure store used as a database, cache, and message broker. It supports data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, geospatial indexes, and streams."
+  },
+  {
+    "id": "2", 
+    "title": "Vector Databases",
+    "content": "Vector databases are specialized databases designed to store and query high-dimensional vector data efficiently. They are essential for machine learning applications like similarity search, recommendation systems, and retrieval-augmented generation (RAG) systems."
+  },
+  {
+    "id": "3",
+    "title": "RAG Systems",
+    "content": "Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with text generation. It retrieves relevant documents from a knowledge base and uses them as context for generating more accurate and informative responses."
+  },
+  {
+    "id": "4",
+    "title": "OpenAI Embeddings",
+    "content": "OpenAI's text embedding models convert text into numerical vectors that capture semantic meaning. These embeddings can be used for search, clustering, recommendations, anomaly detection, diversity measurement, and classification tasks."
+  },
+  {
+    "id": "5",
+    "title": "FAISS Library",
+    "content": "FAISS (Facebook AI Similarity Search) is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM."
+  },
+  {
+    "id": "6",
+    "title": "Caching Strategies",
+    "content": "Caching is a technique to store frequently accessed data in fast storage to reduce latency and computational overhead. Common strategies include LRU (Least Recently Used), TTL (Time To Live), and write-through caching."
+  },
+  {
+    "id": "7",
+    "title": "Performance Optimization",
+    "content": "Performance optimization involves improving system efficiency through various techniques like indexing, caching, load balancing, and algorithm optimization. The goal is to reduce response time and increase throughput."
+  },
+  {
+    "id": "8",
+    "title": "Semantic Search",
+    "content": "Semantic search uses vector representations to find content based on meaning rather than exact keyword matches. It leverages embeddings to understand context and intent, providing more relevant search results."
+  },
+  {
+    "id": "9",
+    "title": "Machine Learning Operations",
+    "content": "MLOps is the practice of deploying and maintaining machine learning models in production reliably and efficiently. It combines machine learning, DevOps, and data engineering to streamline the ML lifecycle."
+  },
+  {
+    "id": "10",
+    "title": "API Design Patterns",
+    "content": "REST APIs follow principles like statelessness, uniform interface, and resource-based URLs. Common patterns include pagination, filtering, sorting, and proper HTTP status codes for different operations and error conditions."
+  }
+]
